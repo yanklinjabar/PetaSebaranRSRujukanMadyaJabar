@@ -730,13 +730,10 @@
         function pop_RSSwastaWilayahBODEBEK_14(feature, layer) {
             var popupContent = '<table>\
                     <tr>\
-                        <td colspan="2">' + (feature.properties['fid'] !== null ? autolinker.link(String(feature.properties['fid']).replace(/'/g, '\'').toLocaleString()) : '') + '</td>\
+                        <td class="visible-with-data" id="RS Strata Madya" colspan="2"><strong>RS Strata Madya</strong><br />' + (feature.properties['RS Strata Madya'] !== null ? autolinker.link(String(feature.properties['RS Strata Madya']).replace(/'/g, '\'').toLocaleString()) : '') + '</td>\
                     </tr>\
                     <tr>\
-                        <td colspan="2">' + (feature.properties['RS Strata Madya'] !== null ? autolinker.link(String(feature.properties['RS Strata Madya']).replace(/'/g, '\'').toLocaleString()) : '') + '</td>\
-                    </tr>\
-                    <tr>\
-                        <td colspan="2">' + (feature.properties['Layanan'] !== null ? autolinker.link(String(feature.properties['Layanan']).replace(/'/g, '\'').toLocaleString()) : '') + '</td>\
+                        <td class="visible-with-data" id="Layanan" colspan="2"><strong>Layanan</strong><br />' + (feature.properties['Layanan'] !== null ? autolinker.link(String(feature.properties['Layanan']).replace(/'/g, '\'').toLocaleString()) : '') + '</td>\
                     </tr>\
                 </table>';
             var content = removeEmptyRowsFromPopupContent(popupContent, feature);
