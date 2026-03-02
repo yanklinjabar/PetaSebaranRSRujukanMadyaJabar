@@ -17,8 +17,8 @@ var style_RSSwastaWilayahPRIANGANTIMUR_8 = function(feature, resolution){
     var offsetX = 0;
     var offsetY = 0;
     var placement = 'point';
-    if (feature.get("RS Kemampuan Madya") !== null) {
-        labelText = String(feature.get("RS Kemampuan Madya"));
+    if ("" !== null) {
+        labelText = String("");
     }
     var style = [ new ol.style.Style({
         image: new ol.style.Circle({radius: 9.2 + size,
