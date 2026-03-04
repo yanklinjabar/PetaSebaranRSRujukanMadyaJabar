@@ -12,13 +12,13 @@ var style_RSSwastaWilayahSUKAJUR_22 = function(feature, resolution){
     var labelFont = "9.1px \'Open Sans\', sans-serif";
     var labelFill = "#fafafa";
     var bufferColor = "#004cff";
-    var bufferWidth = 9.000000000000005;
+    var bufferWidth = 9.0;
     var textAlign = "left";
     var offsetX = 0;
     var offsetY = 0;
     var placement = 'point';
-    if ("" !== null) {
-        labelText = String("");
+    if (feature.get("RS Strata Madya") !== null) {
+        labelText = String(feature.get("RS Strata Madya"));
     }
     var style = [ new ol.style.Style({
         image: new ol.style.Circle({radius: 9.2 + size,

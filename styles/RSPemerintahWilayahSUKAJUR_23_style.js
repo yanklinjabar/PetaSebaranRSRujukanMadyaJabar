@@ -12,13 +12,13 @@ var style_RSPemerintahWilayahSUKAJUR_23 = function(feature, resolution){
     var labelFont = "9.1px \'Open Sans\', sans-serif";
     var labelFill = "#323232";
     var bufferColor = "#fff300";
-    var bufferWidth = 9.000000000000005;
+    var bufferWidth = 9.0;
     var textAlign = "left";
     var offsetX = 0;
     var offsetY = 0;
     var placement = 'point';
-    if ("" !== null) {
-        labelText = String("");
+    if (feature.get("Nama RS") !== null) {
+        labelText = String(feature.get("Nama RS"));
     }
     var style = [ new ol.style.Style({
         image: new ol.style.Circle({radius: 9.2 + size,
