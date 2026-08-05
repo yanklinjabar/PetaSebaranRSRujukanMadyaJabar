@@ -187,9 +187,9 @@ var lyr_RSSwastaWilayahBODEBEK_12 = new ol.layer.Vector({
                 declutter: false,
                 source:jsonSource_RSSwastaWilayahBODEBEK_12, 
                 style: style_RSSwastaWilayahBODEBEK_12,
-                popuplayertitle: 'RS Swasta Wilayah BODEBEK',
+                popuplayertitle: 'RS Swasta Wilayah BODEBEK.',
                 interactive: true,
-                title: '<img src="styles/legend/RSSwastaWilayahBODEBEK_12.png" /> RS Swasta Wilayah BODEBEK'
+                title: '<img src="styles/legend/RSSwastaWilayahBODEBEK_12.png" /> RS Swasta Wilayah BODEBEK.'
             });
 var format_RSSwastaWilayahBODEBEK_13 = new ol.format.GeoJSON();
 var features_RSSwastaWilayahBODEBEK_13 = format_RSSwastaWilayahBODEBEK_13.readFeatures(json_RSSwastaWilayahBODEBEK_13, 
@@ -202,9 +202,9 @@ var lyr_RSSwastaWilayahBODEBEK_13 = new ol.layer.Vector({
                 declutter: false,
                 source:jsonSource_RSSwastaWilayahBODEBEK_13, 
                 style: style_RSSwastaWilayahBODEBEK_13,
-                popuplayertitle: 'RS Swasta Wilayah BODEBEK.',
+                popuplayertitle: 'RS Swasta Wilayah BODEBEK',
                 interactive: true,
-                title: '<img src="styles/legend/RSSwastaWilayahBODEBEK_13.png" /> RS Swasta Wilayah BODEBEK.'
+                title: '<img src="styles/legend/RSSwastaWilayahBODEBEK_13.png" /> RS Swasta Wilayah BODEBEK'
             });
 var format_RSPemerintahWilayahBODEBEK_14 = new ol.format.GeoJSON();
 var features_RSPemerintahWilayahBODEBEK_14 = format_RSPemerintahWilayahBODEBEK_14.readFeatures(json_RSPemerintahWilayahBODEBEK_14, 
@@ -296,35 +296,35 @@ var lyr_RSPemerintahWilayahCEKUNGANBANDUNG_19 = new ol.layer.Vector({
                 interactive: true,
                 title: '<img src="styles/legend/RSPemerintahWilayahCEKUNGANBANDUNG_19.png" /> RS Pemerintah Wilayah CEKUNGAN BANDUNG'
             });
-var format_CiaayumajakuningRSSwastaJuli2026ciayumajakuning_rs_swasta_juli__rs_swasta_ciayumajakuning_20 = new ol.format.GeoJSON();
-var features_CiaayumajakuningRSSwastaJuli2026ciayumajakuning_rs_swasta_juli__rs_swasta_ciayumajakuning_20 = format_CiaayumajakuningRSSwastaJuli2026ciayumajakuning_rs_swasta_juli__rs_swasta_ciayumajakuning_20.readFeatures(json_CiaayumajakuningRSSwastaJuli2026ciayumajakuning_rs_swasta_juli__rs_swasta_ciayumajakuning_20, 
+var format_RSSwastaWilayahCIAYUMAJAKUNING_20 = new ol.format.GeoJSON();
+var features_RSSwastaWilayahCIAYUMAJAKUNING_20 = format_RSSwastaWilayahCIAYUMAJAKUNING_20.readFeatures(json_RSSwastaWilayahCIAYUMAJAKUNING_20, 
             {dataProjection: 'EPSG:4326', featureProjection: 'EPSG:3857'});
-var jsonSource_CiaayumajakuningRSSwastaJuli2026ciayumajakuning_rs_swasta_juli__rs_swasta_ciayumajakuning_20 = new ol.source.Vector({
+var jsonSource_RSSwastaWilayahCIAYUMAJAKUNING_20 = new ol.source.Vector({
     attributions: ' ',
 });
-jsonSource_CiaayumajakuningRSSwastaJuli2026ciayumajakuning_rs_swasta_juli__rs_swasta_ciayumajakuning_20.addFeatures(features_CiaayumajakuningRSSwastaJuli2026ciayumajakuning_rs_swasta_juli__rs_swasta_ciayumajakuning_20);
-var lyr_CiaayumajakuningRSSwastaJuli2026ciayumajakuning_rs_swasta_juli__rs_swasta_ciayumajakuning_20 = new ol.layer.Vector({
+jsonSource_RSSwastaWilayahCIAYUMAJAKUNING_20.addFeatures(features_RSSwastaWilayahCIAYUMAJAKUNING_20);
+var lyr_RSSwastaWilayahCIAYUMAJAKUNING_20 = new ol.layer.Vector({
                 declutter: false,
-                source:jsonSource_CiaayumajakuningRSSwastaJuli2026ciayumajakuning_rs_swasta_juli__rs_swasta_ciayumajakuning_20, 
-                style: style_CiaayumajakuningRSSwastaJuli2026ciayumajakuning_rs_swasta_juli__rs_swasta_ciayumajakuning_20,
-                popuplayertitle: 'Ciaayumajakuning RS Swasta Juli 2026 — ciayumajakuning_rs_swasta_juli__rs_swasta_ciayumajakuning',
+                source:jsonSource_RSSwastaWilayahCIAYUMAJAKUNING_20, 
+                style: style_RSSwastaWilayahCIAYUMAJAKUNING_20,
+                popuplayertitle: 'RS Swasta Wilayah CIAYUMAJAKUNING',
                 interactive: true,
-                title: '<img src="styles/legend/CiaayumajakuningRSSwastaJuli2026ciayumajakuning_rs_swasta_juli__rs_swasta_ciayumajakuning_20.png" /> Ciaayumajakuning RS Swasta Juli 2026 — ciayumajakuning_rs_swasta_juli__rs_swasta_ciayumajakuning'
+                title: '<img src="styles/legend/RSSwastaWilayahCIAYUMAJAKUNING_20.png" /> RS Swasta Wilayah CIAYUMAJAKUNING'
             });
-var format_CiayumajakuningRSpemerintahJulirs_pemerintah_ciayumajakuning_21 = new ol.format.GeoJSON();
-var features_CiayumajakuningRSpemerintahJulirs_pemerintah_ciayumajakuning_21 = format_CiayumajakuningRSpemerintahJulirs_pemerintah_ciayumajakuning_21.readFeatures(json_CiayumajakuningRSpemerintahJulirs_pemerintah_ciayumajakuning_21, 
+var format_RSPemerintahWilayahCIAYUMAJAKUNING_21 = new ol.format.GeoJSON();
+var features_RSPemerintahWilayahCIAYUMAJAKUNING_21 = format_RSPemerintahWilayahCIAYUMAJAKUNING_21.readFeatures(json_RSPemerintahWilayahCIAYUMAJAKUNING_21, 
             {dataProjection: 'EPSG:4326', featureProjection: 'EPSG:3857'});
-var jsonSource_CiayumajakuningRSpemerintahJulirs_pemerintah_ciayumajakuning_21 = new ol.source.Vector({
+var jsonSource_RSPemerintahWilayahCIAYUMAJAKUNING_21 = new ol.source.Vector({
     attributions: ' ',
 });
-jsonSource_CiayumajakuningRSpemerintahJulirs_pemerintah_ciayumajakuning_21.addFeatures(features_CiayumajakuningRSpemerintahJulirs_pemerintah_ciayumajakuning_21);
-var lyr_CiayumajakuningRSpemerintahJulirs_pemerintah_ciayumajakuning_21 = new ol.layer.Vector({
+jsonSource_RSPemerintahWilayahCIAYUMAJAKUNING_21.addFeatures(features_RSPemerintahWilayahCIAYUMAJAKUNING_21);
+var lyr_RSPemerintahWilayahCIAYUMAJAKUNING_21 = new ol.layer.Vector({
                 declutter: false,
-                source:jsonSource_CiayumajakuningRSpemerintahJulirs_pemerintah_ciayumajakuning_21, 
-                style: style_CiayumajakuningRSpemerintahJulirs_pemerintah_ciayumajakuning_21,
-                popuplayertitle: 'Ciayumajakuning RS pemerintah Juli — rs_pemerintah_ciayumajakuning',
+                source:jsonSource_RSPemerintahWilayahCIAYUMAJAKUNING_21, 
+                style: style_RSPemerintahWilayahCIAYUMAJAKUNING_21,
+                popuplayertitle: 'RS Pemerintah Wilayah CIAYUMAJAKUNING',
                 interactive: true,
-                title: '<img src="styles/legend/CiayumajakuningRSpemerintahJulirs_pemerintah_ciayumajakuning_21.png" /> Ciayumajakuning RS pemerintah Juli — rs_pemerintah_ciayumajakuning'
+                title: '<img src="styles/legend/RSPemerintahWilayahCIAYUMAJAKUNING_21.png" /> RS Pemerintah Wilayah CIAYUMAJAKUNING'
             });
 var format_RSSwastaWilayahSUKAJUR_22 = new ol.format.GeoJSON();
 var features_RSSwastaWilayahSUKAJUR_22 = format_RSSwastaWilayahSUKAJUR_22.readFeatures(json_RSSwastaWilayahSUKAJUR_22, 
@@ -361,7 +361,7 @@ var group_WILAYAHSUKAJUR = new ol.layer.Group({
                                 fold: 'close',
                                 title: 'WILAYAH SUKAJUR'});
 var group_WILAYAHCIAYUMAJAKUNING = new ol.layer.Group({
-                                layers: [lyr_CiaayumajakuningRSSwastaJuli2026ciayumajakuning_rs_swasta_juli__rs_swasta_ciayumajakuning_20,lyr_CiayumajakuningRSpemerintahJulirs_pemerintah_ciayumajakuning_21,],
+                                layers: [lyr_RSSwastaWilayahCIAYUMAJAKUNING_20,lyr_RSPemerintahWilayahCIAYUMAJAKUNING_21,],
                                 fold: 'close',
                                 title: 'WILAYAH CIAYUMAJAKUNING'});
 var group_WILAYAHCEKUNGANBANDUNG = new ol.layer.Group({
@@ -385,7 +385,7 @@ var group_PERBATASANWILAYAH = new ol.layer.Group({
                                 fold: 'close',
                                 title: 'PERBATASAN WILAYAH'});
 
-lyr_OpenStreetMap_0.setVisible(true);lyr_PRIANGANTIMUR_1.setVisible(true);lyr_SUKAJUR_2.setVisible(true);lyr_CIAYUMAJAKUNING_3.setVisible(true);lyr_CEKBAN_4.setVisible(true);lyr_BODEBEK_5.setVisible(true);lyr_PURWASUKA_6.setVisible(true);lyr_BATASKABKOTA_7.setVisible(true);lyr_RSSwastaWilayahPRIANGANTIMUR_8.setVisible(true);lyr_RSPemerintahWilayahPrianganTimur_9.setVisible(true);lyr_RSSwastaWilayahPURWASUKA_10.setVisible(true);lyr_RSPemerintahWilayahPURWASUKA_11.setVisible(true);lyr_RSSwastaWilayahBODEBEK_12.setVisible(true);lyr_RSSwastaWilayahBODEBEK_13.setVisible(true);lyr_RSPemerintahWilayahBODEBEK_14.setVisible(true);lyr_RSPemerintahWilayahBODEBEK_15.setVisible(true);lyr_RSSwastaWilayahCEKUNGANBANDUNG_16.setVisible(true);lyr_RSPemerintahWilayahCEKUNGANBANdung_17.setVisible(true);lyr_RSSwastaWilayahCEKUNGANBANDUNG_18.setVisible(true);lyr_RSPemerintahWilayahCEKUNGANBANDUNG_19.setVisible(true);lyr_CiaayumajakuningRSSwastaJuli2026ciayumajakuning_rs_swasta_juli__rs_swasta_ciayumajakuning_20.setVisible(true);lyr_CiayumajakuningRSpemerintahJulirs_pemerintah_ciayumajakuning_21.setVisible(true);lyr_RSSwastaWilayahSUKAJUR_22.setVisible(true);lyr_RSPemerintahWilayahSUKAJUR_23.setVisible(true);
+lyr_OpenStreetMap_0.setVisible(true);lyr_PRIANGANTIMUR_1.setVisible(true);lyr_SUKAJUR_2.setVisible(true);lyr_CIAYUMAJAKUNING_3.setVisible(true);lyr_CEKBAN_4.setVisible(true);lyr_BODEBEK_5.setVisible(true);lyr_PURWASUKA_6.setVisible(true);lyr_BATASKABKOTA_7.setVisible(true);lyr_RSSwastaWilayahPRIANGANTIMUR_8.setVisible(true);lyr_RSPemerintahWilayahPrianganTimur_9.setVisible(true);lyr_RSSwastaWilayahPURWASUKA_10.setVisible(true);lyr_RSPemerintahWilayahPURWASUKA_11.setVisible(true);lyr_RSSwastaWilayahBODEBEK_12.setVisible(true);lyr_RSSwastaWilayahBODEBEK_13.setVisible(true);lyr_RSPemerintahWilayahBODEBEK_14.setVisible(true);lyr_RSPemerintahWilayahBODEBEK_15.setVisible(true);lyr_RSSwastaWilayahCEKUNGANBANDUNG_16.setVisible(true);lyr_RSPemerintahWilayahCEKUNGANBANdung_17.setVisible(true);lyr_RSSwastaWilayahCEKUNGANBANDUNG_18.setVisible(true);lyr_RSPemerintahWilayahCEKUNGANBANDUNG_19.setVisible(true);lyr_RSSwastaWilayahCIAYUMAJAKUNING_20.setVisible(true);lyr_RSPemerintahWilayahCIAYUMAJAKUNING_21.setVisible(true);lyr_RSSwastaWilayahSUKAJUR_22.setVisible(true);lyr_RSPemerintahWilayahSUKAJUR_23.setVisible(true);
 var layersList = [lyr_OpenStreetMap_0,group_PERBATASANWILAYAH,lyr_BATASKABKOTA_7,group_WILAYAHPRIANGANTIMUR,group_WILAYAHPURWASUKA,group_WILAYAHBODEBEK,group_WILAYAHCEKUNGANBANDUNG,group_WILAYAHCIAYUMAJAKUNING,group_WILAYAHSUKAJUR];
 lyr_PRIANGANTIMUR_1.set('fieldAliases', {'KAB_KOTA': 'KAB_KOTA', });
 lyr_SUKAJUR_2.set('fieldAliases', {'KAB_KOTA': 'KAB_KOTA', });
@@ -406,8 +406,8 @@ lyr_RSSwastaWilayahCEKUNGANBANDUNG_16.set('fieldAliases', {'fid': 'fid', 'RS Str
 lyr_RSPemerintahWilayahCEKUNGANBANdung_17.set('fieldAliases', {'fid': 'fid', 'RS Strata Madya': 'RS Strata Madya', 'Layanan': 'Layanan', });
 lyr_RSSwastaWilayahCEKUNGANBANDUNG_18.set('fieldAliases', {'fid': 'fid', 'RS Strata Madya': 'RS Strata Madya', 'Layanan': 'Layanan', });
 lyr_RSPemerintahWilayahCEKUNGANBANDUNG_19.set('fieldAliases', {'fid': 'fid', 'RS Strata Madya': 'RS Strata Madya', 'Layanan': 'Layanan', });
-lyr_CiaayumajakuningRSSwastaJuli2026ciayumajakuning_rs_swasta_juli__rs_swasta_ciayumajakuning_20.set('fieldAliases', {'fid': 'fid', 'RS Strata Madya': 'RS Strata Madya', 'Layanan': 'Layanan', });
-lyr_CiayumajakuningRSpemerintahJulirs_pemerintah_ciayumajakuning_21.set('fieldAliases', {'fid': 'fid', 'RS Strata Madya': 'RS Strata Madya', 'Layanan': 'Layanan', });
+lyr_RSSwastaWilayahCIAYUMAJAKUNING_20.set('fieldAliases', {'fid': 'fid', 'RS Strata Madya': 'RS Strata Madya', 'Layanan': 'Layanan', });
+lyr_RSPemerintahWilayahCIAYUMAJAKUNING_21.set('fieldAliases', {'fid': 'fid', 'RS Strata Madya': 'RS Strata Madya', 'Layanan': 'Layanan', });
 lyr_RSSwastaWilayahSUKAJUR_22.set('fieldAliases', {'fid': 'fid', 'RS Strata Madya': 'RS Strata Madya', 'Layanan': 'Layanan', });
 lyr_RSPemerintahWilayahSUKAJUR_23.set('fieldAliases', {'fid': 'fid', 'Nama RS': 'Nama RS', 'Layanan': 'Layanan', });
 lyr_PRIANGANTIMUR_1.set('fieldImages', {'KAB_KOTA': '', });
@@ -429,8 +429,8 @@ lyr_RSSwastaWilayahCEKUNGANBANDUNG_16.set('fieldImages', {'fid': '', 'RS Strata 
 lyr_RSPemerintahWilayahCEKUNGANBANdung_17.set('fieldImages', {'fid': '', 'RS Strata Madya': '', 'Layanan': '', });
 lyr_RSSwastaWilayahCEKUNGANBANDUNG_18.set('fieldImages', {'fid': '', 'RS Strata Madya': '', 'Layanan': '', });
 lyr_RSPemerintahWilayahCEKUNGANBANDUNG_19.set('fieldImages', {'fid': '', 'RS Strata Madya': '', 'Layanan': '', });
-lyr_CiaayumajakuningRSSwastaJuli2026ciayumajakuning_rs_swasta_juli__rs_swasta_ciayumajakuning_20.set('fieldImages', {'fid': '', 'RS Strata Madya': '', 'Layanan': '', });
-lyr_CiayumajakuningRSpemerintahJulirs_pemerintah_ciayumajakuning_21.set('fieldImages', {'fid': '', 'RS Strata Madya': '', 'Layanan': '', });
+lyr_RSSwastaWilayahCIAYUMAJAKUNING_20.set('fieldImages', {'fid': '', 'RS Strata Madya': '', 'Layanan': '', });
+lyr_RSPemerintahWilayahCIAYUMAJAKUNING_21.set('fieldImages', {'fid': '', 'RS Strata Madya': '', 'Layanan': '', });
 lyr_RSSwastaWilayahSUKAJUR_22.set('fieldImages', {'fid': '', 'RS Strata Madya': '', 'Layanan': '', });
 lyr_RSPemerintahWilayahSUKAJUR_23.set('fieldImages', {'fid': '', 'Nama RS': '', 'Layanan': '', });
 lyr_PRIANGANTIMUR_1.set('fieldLabels', {'KAB_KOTA': 'no label', });
@@ -452,8 +452,8 @@ lyr_RSSwastaWilayahCEKUNGANBANDUNG_16.set('fieldLabels', {'fid': 'hidden field',
 lyr_RSPemerintahWilayahCEKUNGANBANdung_17.set('fieldLabels', {'fid': 'hidden field', 'RS Strata Madya': 'header label - visible with data', 'Layanan': 'header label - visible with data', });
 lyr_RSSwastaWilayahCEKUNGANBANDUNG_18.set('fieldLabels', {'fid': 'hidden field', 'RS Strata Madya': 'header label - visible with data', 'Layanan': 'header label - visible with data', });
 lyr_RSPemerintahWilayahCEKUNGANBANDUNG_19.set('fieldLabels', {'fid': 'hidden field', 'RS Strata Madya': 'header label - visible with data', 'Layanan': 'header label - visible with data', });
-lyr_CiaayumajakuningRSSwastaJuli2026ciayumajakuning_rs_swasta_juli__rs_swasta_ciayumajakuning_20.set('fieldLabels', {'fid': 'hidden field', 'RS Strata Madya': 'header label - visible with data', 'Layanan': 'header label - visible with data', });
-lyr_CiayumajakuningRSpemerintahJulirs_pemerintah_ciayumajakuning_21.set('fieldLabels', {'fid': 'hidden field', 'RS Strata Madya': 'header label - visible with data', 'Layanan': 'header label - visible with data', });
+lyr_RSSwastaWilayahCIAYUMAJAKUNING_20.set('fieldLabels', {'fid': 'hidden field', 'RS Strata Madya': 'header label - visible with data', 'Layanan': 'header label - visible with data', });
+lyr_RSPemerintahWilayahCIAYUMAJAKUNING_21.set('fieldLabels', {'fid': 'hidden field', 'RS Strata Madya': 'header label - visible with data', 'Layanan': 'header label - visible with data', });
 lyr_RSSwastaWilayahSUKAJUR_22.set('fieldLabels', {'fid': 'hidden field', 'RS Strata Madya': 'header label - visible with data', 'Layanan': 'header label - visible with data', });
 lyr_RSPemerintahWilayahSUKAJUR_23.set('fieldLabels', {'fid': 'hidden field', 'Nama RS': 'header label - visible with data', 'Layanan': 'header label - visible with data', });
 lyr_RSPemerintahWilayahSUKAJUR_23.on('precompose', function(evt) {
